@@ -1,6 +1,6 @@
-# Man - UserBot
+# Humanity - UserBot
 # Copyright (c) 2022 Man-Userbot
-# Credits: @mrismanaziz || https://github.com/mrismanaziz
+# Credits: @efradesihombing || https://github.com/efradesihombing
 #
 # This file is a part of < https://github.com/mrismanaziz/Man-Userbot/ >
 # t.me/SharingUserbot & t.me/Lunatic0de
