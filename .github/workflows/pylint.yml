@@ -30,9 +30,9 @@ jobs:
           PASSPHRASE: ${{ secrets.PASSPHRASE }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '-Userbot: auto fixes'
+          commit_message: 'Humanity-Userbot: auto fixes'
           commit_options: '--no-verify --signoff'
           repository: .
-          commit_user_name: mrismanaziz
-          commit_user_email: mrismanaziz@gmail.com
-          commit_author: mrismanaziz <mrismanaziz@gmail.com>
+          commit_user_name: efradesihombing
+          commit_user_email: efradesihombing@gmail.com
+          commit_author: efradesihombing <efradesihombing@gmail.com>
