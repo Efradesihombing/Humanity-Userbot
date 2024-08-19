@@ -1,6 +1,6 @@
-# Man - UserBot
-# Copyright (c) 2022 Man-Userbot
-# Credits: @mrismanaziz || https://github.com/mrismanaziz
+# Humanity - UserBot
+# Copyright (c) 2022 Humanity-Userbot
+# Credits:  efradesihombing|| https://github.com/efradesihombing 
 #
 # This file is a part of < https://github.com/mrismanaziz/Man-Userbot/ >
 # t.me/SharingUserbot & t.me/Lunatic0de
@@ -17,7 +17,7 @@ from userbot import MAN2, MAN3, MAN4, MAN5, bot, branch, tgbot
 from userbot.utils import checking
 
 MSG_ON = """
-🔥 **Man-Userbot Berhasil Di Aktifkan**
+🔥 **humanity-Userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}@{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
@@ -25,7 +25,7 @@ MSG_ON = """
 """
 
 
-async def man_userbot_on():
+async def humanity_userbot_on():
     new_rights = ChatAdminRights(
         add_admins=True,
         invite_users=True,
@@ -56,7 +56,7 @@ async def man_userbot_on():
             await checking(bot)
             await asyncio.sleep(3)
             if BOTLOG_CHATID != 0:
-                await bot.send_message(
+                await bot.send _message(
                     BOTLOG_CHATID,
                     MSG_ON.format(version, branch, cmd),
                 )
@@ -72,7 +72,7 @@ async def man_userbot_on():
                     MSG_ON.format(version, branch, cmd),
                 )
     except BaseException:
-        pass
+        pass⁵
     try:
         if MAN3:
             await checking(MAN3)
